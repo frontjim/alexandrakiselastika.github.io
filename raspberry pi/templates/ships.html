@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Σελίδα Μετρήσεων</title>
+</head>
+
+<body>
+    <p>Γεια σου {{g.user[1]}}</p>
+    <form method="POST">
+        <p>
+            Δώστε θέση στη συστοιχία LED (αν δώσετε στον οριζόντιο άξονα τιμή άνω του 7, η ναυμαχία ξεκινά από την αρχή):
+            <br>
+            <input type="text" name="oriz" size="5" placeholder="Οριζόντια" /> X
+            <input type="text" name="kath" size="5" placeholder="Κάθετα" />
+            <br>
+            <button type="submit">ΑΠΟΣΤΟΛΗ στο Sense-HAT</button>
+        </p>
+    </form>
+    <p><a href="/ships">Aνανέωση</a></p>
+    <p><a href="/index">Αρχική Σελίδα</a></p>
+</body>
+
+</html>
